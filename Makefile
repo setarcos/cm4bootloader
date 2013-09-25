@@ -322,7 +322,7 @@ OOCD_CL+= -c "reset halt"
 # show the targets
 OOCD_CL+=-c targets
 # increase JTAG frequency a little bit - can be disabled for tests
-OOCD_CL+= -c "adapter_khz 1000"
+# OOCD_CL+= -c "adapter_khz 1000"
 # disable polling (optional)
 OOCD_CL+= -c "poll off"
 # flash-write and -verify
